@@ -4,9 +4,7 @@ description: "👋 This is Tim Engine &mdash; The Great Pantzini &bullet; The Re
 ---
 
 ## About 👺 Tim Engine
-Tim Engine is a **templating engine** and **scripting language** designed to help developers create dynamic and interactive documentation websites with ease. It provides a simple yet powerful syntax for generating web pages like a boss.
-
-Tim is **single-file binary CLI application** that can be easily integrated into your development workflow.
+**Tim Engine** is a DSL (Domain-Specific Language) that combines Haml, Pug, Emmet, and Nim's syntax into a beautiful and expressive language, making it a joy to write HTML templates and scripts, while also being a powerful scripting language in its own right. It is designed to be fast, lightweight, and incredibly easy to use, write and maintain.
 
 <div class="alert alert-info rounded-4" role="alert">
   <div class="alert-content"><strong>Tim Engine</strong> is in active development! If you encounter any issues or have feature requests, please visit the <a href="https://github.com/openpeeps/tim/issues" target="_blank" rel="noopener">GitHub Issues page</a> to report them.</div>
@@ -22,11 +20,11 @@ Here are some of the key features that make Booyaka stand out
 - 🧩 **Extensible** with support for custom functions and plugins
 - Source-to-Source transpiler (**Lua**, **Nim**, **Ruby**, **Python**, **JavaScript** and **PHP**)
 - Built-in **Live Reloading** for seamless development experience
-- **Open Source** | **LGPLv3** License 🎩
+- **Open Source** released under the **LGPLv3** License 🎩
 - Written in 👑 **Nim language** | **Made by Humans from OpenPeeps**
 
 ## 🚀 Getting Started
-For installation instructions, check out the [Installation page](/installation). To learn how to use Tim Engine and its syntax, head over to the [Syntax page](/syntax).
+Next up, you can check out the [Installation page](/install) to learn how to install Tim Engine on your system. Once you have it set up, head over to the [Syntax page](/syntax) to learn how to use Tim Engine and its powerful features to create amazing templates and scripts.
 
 ### 🤟 Contributions & Support
 - 🐛 Found a bug? [Create a new Issue](https://github.com/openpeeps/tim/issues)

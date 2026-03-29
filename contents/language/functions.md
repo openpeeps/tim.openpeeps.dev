@@ -5,7 +5,9 @@ keywords: ["functions", "tim engine", "definition", "usage", "documentation"]
 ---
 
 ## Function definition
-Functions are reusable blocks of code that perform a specific task. They allow you to organize your code, avoid repetition, and make it more modular and maintainable. In **Tim Engine**, you can define functions using the `fn` or `func` keywords, followed by the function name, parameters, return type, and the function body. For example:
+Functions are reusable blocks of code that perform a specific task. They allow you to organize your code, avoid repetition, and make it more modular and maintainable. In Tim, function names are case-insensitive, so `greet`, `Greet`, and `GREET` would refer to the same function.
+
+You can define functions using the `fn` or `func` keywords, followed by the function name, parameters, return type, and the function body. For example:
 ```
 fn greet(name: string): string =
   return "Hello, " & $name & "!"

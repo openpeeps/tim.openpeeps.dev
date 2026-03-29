@@ -1,6 +1,6 @@
 ---
 title: "Macros and Components"
-description: "Documentation for macros in Tim Engine, which are reusable templates that can generate HTML elements and can be used to create components in your templates."
+description: "Reusable templates that can generate HTML elements and can be used to create components in your templates."
 keywords: ["macros", "components", "tim engine", "reusable templates", "documentation"]
 ---
 

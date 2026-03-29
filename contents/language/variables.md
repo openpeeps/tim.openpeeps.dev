@@ -5,7 +5,7 @@ keywords: ["variables", "tim engine", "declaration", "assignment", "usage", "doc
 ---
 
 ## Mutable variables
-You can define mutable variables using the `var` keyword. For example:
+You can define mutable variables using the `var` keyword. In Tim, variables are case-insensitive, so `name`, `Name`, and `NAME` would refer to the same variable. For example:
 ```
 var name: string          // variable 'name' of type string
 $name = "Tim Engine"      // assigning a value to the variable 'name'

@@ -106,11 +106,11 @@ sidebar_navigation:
       - title: "Manage Packages"
         url: "/package-manager"
 
-      - title: "Creating Packages"
-        url: "/package-manager/creating-packages"
+      - title: "Create a Package"
+        url: "/package-manager/create-package"
 
-      - title: "Publishing Packages"
-        url: "/package-manager/publishing-packages"
+      - title: "Publish a Package"
+        url: "/package-manager/publish-package"
 
   - name: "Source-to-Source Transpilation"
     items:

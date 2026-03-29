@@ -26,6 +26,6 @@ div.container > div.row > div.col-12
 - **Sibling Elements**: You can use the `>` operator to create sibling elements or indent them to create child elements.
 
 ## The language
-The scripting language is what makes Tim Engine truly powerful and unique. 💪 It allows you to add dynamic behavior to your webpage and generate content based on **conditions**, **loops**, and more.
+Tim engine is a Domain-Specific Language (DSL), it is designed to be used for creating HTML templates, Tim includes a powerful scripting language that allows you to add the dynamic behaviour to your templates and generate content based on conditions, loops, and more.
 
 Tim Engine features a **strongly-typed data model**, supporting primitive types like **strings**, **numbers**, **booleans**, as well as composite types such as **arrays** and **objects**. You can leverage built-in **functions** or define **custom functions** to efficiently manipulate data and generate dynamic content.
