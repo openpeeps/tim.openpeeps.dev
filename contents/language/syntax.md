@@ -20,7 +20,7 @@ div.container > div.row > div.col-12
 - **Elements**: HTML elements are defined by their tag name, followed by optional classes and attributes. For example, `div.container` creates a `div` element with the class `container`.
 - **Nesting**: Child elements are indented under their parent element. For example, the `h1` and `p` elements are nested inside the `div.col-12` element.
 - **Text Content**: To add text content to an element, you can use a colon `:` followed by the text. For example, `h1.title: "Welcome to Tim Engine!"`.
-- **Attributes**: You can add attributes to elements using the `attr=value` syntax. For example, `a.btn.btn-primary.px-4 href="https://example.com"`.
+- **Attributes**: You can add attributes to elements using the `attr=value` syntax. For example, `href="https://example.com"`.
 - **Shorthand for IDs**: You can use `#` to define an element's ID. For example, `div#main` creates a `div` element with the ID `main`.
 - **Shorthand for Classes**: You can use `.` to define an element's class. For example, `div.container` creates a `div` element with the class `container`.
 - **Sibling Elements**: You can use the `>` operator to create sibling elements or indent them to create child elements.
@@ -29,3 +29,15 @@ div.container > div.row > div.col-12
 Tim engine is a Domain-Specific Language (DSL), it is designed to be used for creating HTML templates, Tim includes a powerful scripting language that allows you to add the dynamic behaviour to your templates and generate content based on conditions, loops, and more.
 
 Tim Engine features a **strongly-typed data model**, supporting primitive types like **strings**, **numbers**, **booleans**, as well as composite types such as **arrays** and **objects**. You can leverage built-in **functions** or define **custom functions** to efficiently manipulate data and generate dynamic content.
+
+### Data Types
+Tim Engine supports a variety of data types, including:
+
+| name | type | description |
+| --- | --- | --- |
+| `string` | Primitive | Represents a sequence of characters. |
+| `int` | Primitive | Represents a whole number. |
+| `float` | Primitive | Represents a number with a fractional part. |
+| `boolean` | Primitive | Represents a logical value, either `true` or `false`. |
+| `array` | Composite | Represents an ordered collection of values, which can be of any type. |
+| `object` | Composite | Represents a collection of key |

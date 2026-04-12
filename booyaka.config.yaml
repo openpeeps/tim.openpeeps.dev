@@ -1,5 +1,6 @@
 metadata:
-  logo: "/assets/booyaka.png"
+  logo: "https://raw.githubusercontent.com/openpeeps/tim/main/.github/timV2.png"
+  logo_keep_gradient: true
   title: "Tim Engine Documentation"
   description: "Documentation page for Tim Engine - a powerful template engine and scripting language for developers."
   keywords: ["tim", "template", "templating", "template engine", "scripting language"]
@@ -11,7 +12,7 @@ appearance:
   show_toggle_right_sidebar: true
   container_width: "col-lg-10 mx-auto"
   content_width: "col-lg-7"
-  background_noise_opacity: 0.03
+  background_noise_opacity: 0.3
 
 git:
   enable_versioning: false
@@ -24,7 +25,7 @@ header:
     index_page_titles: true
 
 content:
-  allowedRawHtmlTags:
+  allow_raw_html_tags:
     - "b"
     - "i"
     - "strong"
@@ -35,11 +36,11 @@ content:
     - "ol"
     - "li"
 
-  showLastUpdated: true
-  lastDateUpdatedFormat: "yyyy-MM-dd HH:mm:ss"
-  enableAutoFormatLinks: true
+  show_last_updated: true
+  last_date_updated_format: "yyyy-MM-dd HH:mm:ss"
+  enable_auto_format_links: true
   bottom_navigation: true
-  codeHighlightTheme: "default"
+  code_highlight_theme: "default"
   share_ai_buttons: true
   share_buttons_ai_providers:
     - label: "ChatGPT"
@@ -57,11 +58,11 @@ content:
 
 
 navbar:
-  - title: "Home"
-    url: "/"
+  - title: "GitHub Repository"
+    url: "https://github.com/openpeeps/tim"
     icon: ""
-  - title: "Docs"
-    url: "/docs"
+  - title: "API Reference"
+    url: "https://openpeeps.github.io/tim/theindex.html"
     icon: "icon-book"
 
 sidebar_navigation:
@@ -128,11 +129,30 @@ sidebar_navigation:
 
 extra_sections:
   left_sidebar:
-    - title: ""
-      content: ""
+    - content: |
+        <div class="card border-2 rounded-4" style="border-style: dotted;">
+          <div class="card-body small p-2 lh-sm justify-content-center d-flex align-items-center user-select-none">
+            <div class="bg-warning flex-shrink-0 rounded-pill p-1 me-2">
+              <img class="img-fluid" src="/assets/bug-icon.png" width="32px" height="32px" alt="Bug Icon">
+            </div>
+            <p class="mb-0 small d-inline">
+              <strong>Found a bug?</strong><br>Create a new issue on <a href="https://github.com/openpeeps/booyaka/issues" class="text-link d-inline-block bg-dark" target="_blank">GitHub</a>
+            </p>
+          </div>
+        </div>
   right_sidebar:
-    - title: ""
-      content: ""
+    - content: |
+        <div class="card border-2 rounded-4 me-3" style="border-style: dotted;">
+          <div class="card-body small p-5 lh-sm user-select-none">
+            <img class="img-fluid" src="https://www.hetzner.com/_resources/themes/hetzner/images/logo/hetzner-logo.svg?m=1764328696" width="100%" alt="Hetzner Logo">
+            <p class="mt-3">
+              Get € 20.00 free credit on Hetzner Cloud with our link!<br>
+            </p>
+            <p class="mb-0 text-center">
+              <a href="https://hetzner.cloud/?ref=Hm0mYGM9NxZ4" class="btn btn-sm py-1 rounded-pill bg-dark d-inline-block" target="_blank">Sign up to Hetzner Cloud</a>
+            </p>
+          </div>
+        </div>
 
 footer:
   text: ""

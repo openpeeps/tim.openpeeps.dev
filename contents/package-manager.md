@@ -11,7 +11,6 @@ Manage packages in Tim Engine:
 - [Creating a Package](/package-manager/create-package): Learn how to create a package to organize and share your reusable code.
 - [Publishing a Package](/package-manager/publish-package): Share your package with the world by publishing it to the Tim Engine package registry.
 
-
 ### Package location
 Tim Engine looks for packages in the `~/.tim/packages` directory. This directory is automatically created when you use Tim Engine for the first time. When you install a package using the package manager, it will be downloaded and stored in this directory.
 

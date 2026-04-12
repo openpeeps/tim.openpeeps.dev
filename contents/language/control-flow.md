@@ -25,7 +25,7 @@ for $fruit in $fruits:
   p: "I like " & $fruit
 ```
 
-### For in range
+## For in range
 Here is an example using the `..` operator to create a range of numbers:
 ```
 for $i in 0..5:

@@ -22,3 +22,13 @@ Due to the design of Tim Engine, and how it processes HTML elements, you can cal
 ```
 p: $name
 ```
+
+## Variable scope
+The life cycle of a variable in Tim Engine is determined by its scope. Both, constants and variables are scoped to the block in which they are defined. This means that a variable defined within a block (e.g., a loop or a conditional) will only be accessible within that block and its nested blocks. Once the block is exited, the variable will no longer be accessible. For example:
+```
+if (true) {
+  var message = "Hello, World!"  // 'message' is defined within this block
+  p: $message                    // 'message' can be accessed here
+}
+p: $message                      // not accessible here, will result in an error
+```

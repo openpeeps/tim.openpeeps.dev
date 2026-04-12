@@ -1,7 +1,7 @@
 ---
 title: "Functions"
-description: "Definition and usage of functions in Tim Engine"
-keywords: ["functions", "tim engine", "definition", "usage", "documentation"]
+description: "Define, use, and understand functions in Tim Engine"
+keywords: ["functions", "tim engine", "definition", "overloading", "dsl"]
 ---
 
 ## Function definition
