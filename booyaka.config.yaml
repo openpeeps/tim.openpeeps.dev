@@ -113,20 +113,6 @@ sidebar_navigation:
       - title: "Publish a Package"
         url: "/package-manager/publish-package"
 
-  - name: "Source-to-Source Transpilation"
-    items:
-      - title: "Overview"
-        url: "/transpilation/overview"
-
-      - title: "Supported Languages"
-        url: "/transpilation/supported-languages"
-
-      - title: "Examples"
-        url: "/transpilation/examples"
-      
-      - title: "Configuration"
-        url: "/transpilation/configuration"
-
 extra_sections:
   left_sidebar:
     - content: |
@@ -143,8 +129,8 @@ extra_sections:
   right_sidebar:
     - content: |
         <div class="card border-2 rounded-4 me-3" style="border-style: dotted;">
-          <div class="card-body small p-5 lh-sm user-select-none">
-            <img class="img-fluid" src="https://www.hetzner.com/_resources/themes/hetzner/images/logo/hetzner-logo.svg?m=1764328696" width="100%" alt="Hetzner Logo">
+          <div class="card-body small p-4 lh-sm user-select-none">
+            <img class="img-fluid" src="/assets/hetzner-logo.svg?m=1764328696" width="100%" alt="Hetzner Logo">
             <p class="mt-3">
               Get € 20.00 free credit on Hetzner Cloud with our link!<br>
             </p>
