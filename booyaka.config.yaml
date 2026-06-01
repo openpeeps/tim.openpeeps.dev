@@ -100,17 +100,17 @@ sidebar_navigation:
   - name: "Standard Library"
     items:
       - title: "System"
-        url: "/library/system"
+        url: "/libraries/system"
       - title: "Math"
-        url: "/library/math"
+        url: "/libraries/math"
       - title: "Strings"
-        url: "/library/strings"
+        url: "/libraries/strings"
       - title: "Arrays"
-        url: "/library/arrays"
+        url: "/libraries/arrays"
       - title: "Objects"
-        url: "/library/objects"
+        url: "/libraries/objects"
       - title: "User Scripts"
-        url: "/library/user-scripts"
+        url: "/libraries/user-scripts"
   
   - name: "Package Manager"
     items:
