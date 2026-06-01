@@ -94,7 +94,7 @@ sidebar_navigation:
         url: "/language/macros"
       - title: "Control Flow"
         url: "/language/control-flow"
-      - title: "Imports and Imports"
+      - title: "Imports and Includes"
         url: "/language/modules"
 
   - name: "Standard Library"
