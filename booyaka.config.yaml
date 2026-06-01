@@ -127,6 +127,11 @@ sidebar_navigation:
       - title: "Basic Examples"
         url: "/examples/basics"
 
+  - name: "Source to Source"
+    items:
+      - title: "Transpilation Overview"
+        url: "/transpilation/overview"
+
 extra_sections:
   left_sidebar:
     - content: |
