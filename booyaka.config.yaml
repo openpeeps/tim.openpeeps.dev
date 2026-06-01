@@ -94,22 +94,23 @@ sidebar_navigation:
         url: "/language/macros"
       - title: "Control Flow"
         url: "/language/control-flow"
-
+      - title: "Imports and Imports"
+        url: "/language/modules"
 
   - name: "Standard Library"
     items:
       - title: "System"
-        url: "/lib/system"
+        url: "/library/system"
       - title: "Math"
-        url: "/lib/math"
+        url: "/library/math"
       - title: "Strings"
-        url: "/lib/strings"
+        url: "/library/strings"
       - title: "Arrays"
-        url: "/lib/arrays"
+        url: "/library/arrays"
       - title: "Objects"
-        url: "/lib/objects"
+        url: "/library/objects"
       - title: "User Scripts"
-        url: "/lib/user-scripts"
+        url: "/library/user-scripts"
   
   - name: "Package Manager"
     items:
