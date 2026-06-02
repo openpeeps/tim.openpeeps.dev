@@ -55,4 +55,15 @@ This will generate a Bootstrap column with the specified width and the content:
 </div>
 ```
 
-`@statement` is a special inner macro that represents the block of code passed as trailing statements.
+`@statement` is a special inner macro that represents the block of code passed as trailing statements. When the macro is called, the block of code following the macro call is passed to `@statement`, which can then be used within the macro to generate the desired HTML structure.
+
+
+Calling the `col` macro without trailing statements will simply generate an empty column:
+```
+@col(6)
+```
+
+the inner `@statement` won't have any content to render, so the generated HTML will be:
+```html
+<div class="col-lg-6"></div>
+```
