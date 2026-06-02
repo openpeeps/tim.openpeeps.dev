@@ -23,13 +23,12 @@ Here are some of the key features that make Booyaka stand out
 - **Open Source** released under the **LGPLv3** License 🎩
 - Written in 👑 **Nim language** | **Made by Humans from OpenPeeps**
 
-## 🚀 Getting Started
+## 🚀 Getting _Started_
 Next up, you can check out the [Installation page](/install) to learn how to install Tim Engine on your system. Once you have it set up, head over to the [Syntax page](/syntax) to learn how to use Tim Engine and its powerful features to create amazing templates and scripts.
 
 ### 🤟 Contributions & Support
 - 🐛 Found a bug? [Create a new Issue](https://github.com/openpeeps/tim/issues)
 - 👋 Wanna help? [Fork it!](https://github.com/openpeeps/tim/fork)
-- 😎 [Get €20 in cloud credits from Hetzner](https://hetzner.cloud/?ref=Hm0mYGM9NxZ4)
 
 ### 🎩 License
 Tim Engine is licensed under the LGPLv3 License. See the [LICENSE](https://github.com/openpeeps/tim/blob/main/LICENSE) file for more information on the license and how it applies to your use of Tim Engine.
