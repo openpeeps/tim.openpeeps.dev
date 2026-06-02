@@ -14,7 +14,7 @@ To import a module in Tim Engine, you can use the `@import` statement followed b
 ```
 
 ## Standard library modules
-Tim Engine comes with a [standard library](/library/system) that provides a wide range of built-in functions and modules for common tasks. You can import standard library modules using the `@import` statement with the module name. For example:
+Tim Engine comes with a [standard library](/libraries) that provides a wide range of built-in functions and modules for common tasks. You can import standard library modules using the `@import` statement with the module name. For example:
 ```
 @import "std/math"
 ```
